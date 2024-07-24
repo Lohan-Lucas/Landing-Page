@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAV BAR */
+#logo{
+    height: 10vh;
+}
+
+.header-menu{
+    background-color: #253961;
+    height: 100vh;
+}
+.nav-link, .navbar-brand{
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: #2a4c91;
+    border-bottom:2px solid white;
+}
+.nav-item{
+    padding-right: 1.2em;
+}
+/* SECTION HOME */
+#image-home{
+     width: 45vw;
+}
