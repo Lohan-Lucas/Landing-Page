@@ -6,6 +6,7 @@
 /* NAV BAR */
 .navbar{
     height: 12vh;
+    display: flex;
     position: sticky;
 }
 #logo{
@@ -36,6 +37,35 @@
 }
 .navbar-toggler{
     border: none;
+}
+
+#about{
+    flex-direction: column;
+    height: 100vh;
+}
+#about-text{
+    padding-top: 5vh;
+}
+#img-main{
+    height: 40vh;
+}
+
+#imgs-about{
+    padding-top: 15vh;
+    width: 98vw;
+}
+.card{
+    background-color: rgba(187, 181, 181, 0.507);
+    width: 25vw;
+}
+.card:hover{
+    width: 26vw;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.233);
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1040px){

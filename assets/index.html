@@ -9,61 +9,93 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header class="header-menu">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="Images/logo.png" alt="Logo" id="logo">
-                <span>Creative Page</span>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto" id="navbar-ul">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn btn-success px-4" href="#">Login</button>
-                  </li>
-                </ul>
-              </div>
+  <header class="header-menu">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="Images/logo.png" alt="Logo" id="logo">
+              <span>Creative Page</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto" id="navbar-ul">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-success px-4" href="#">Login</button>
+                </li>
+              </ul>
             </div>
-        </nav>
-        <secction class="home d-flex align-items-center h-75" id="secction-home">
-          <div class="container" id="home">
-              <div class="row d-flex align-items-center" id="div-all-home">
-                  <div class="col-xl-6" id="div-home">
-                      <h1 class="text-white">Create a Landing Page</h1>
-                      <p class="text-white">
-                          In this project we will create a Landing Page to improve our knowledge in HTML, CSS, JavaScript and BootStrap.
-                      </p>
-                      <button class="btn btn-success px-3">Create<i class="bi bi-caret-right-fill"></i></button>
-                  </div>
-                  <div class="col-xl-6 d-flex justify-content-end" id="div-img">
-                      <img src="Images/ilustracao.png" class="img-fluid" alt="Image" id="image-home">
-                  </div>
-              </div>
           </div>
-      </secction>
-    </header>
+      </nav>
+      <secction class="home d-flex align-items-center h-75" id="secction-home">
+        <div class="container" id="home">
+            <div class="row d-flex align-items-center" id="div-all-home">
+                <div class="col-xl-6" id="div-home">
+                    <h1 class="text-white">Create a Landing Page</h1>
+                    <p class="text-white">
+                        In this project we will create a Landing Page to improve our knowledge in HTML, CSS, JavaScript and BootStrap.
+                    </p>
+                    <button class="btn btn-success px-3">Create<i class="bi bi-caret-right-fill"></i></button>
+                </div>
+                <div class="col-xl-6 d-flex justify-content-end" id="div-img">
+                    <img src="Images/ilustracao.png" class="img-fluid" alt="Image" id="image-home">
+                </div>
+            </div>
+        </div>
+    </secction>
+  </header>
     
-    <main class="container-main">
-      
-    </main>
+  <main class="container-fluid">
+    <secction class="home d-flex align-items-center" id="about">
+      <div class="row d-flex align-items-center" id="about-text">
+        <h2 class="text-center">About</h2>
+        <p class="d-flex mx-auto text-center w-75">Generally, the landing page features a form for the visitor to enter their details and, in return, they receive an e-book, consultancy, more information about the product or service or even make a purchase.</p>
+      </div>
+      <div class="row d-flex align-items-center pb-5" id="imgs-about">
+        <div class="col">
+          <div class="card">
+            <img src="Images/lp-e-book.png" class="card-img-top" alt="example landing page" id="img-main">
+            <div class="card-body">
+              <p class="card-text">This example show us a Landing Page of E-Book</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/lp-product.png" class="card-img-top" alt="example landing page" id="img-main">
+            <div class="card-body">
+              <p class="card-text">This Landing Page show us a descripition about item</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images/lp purchase.png" class="card-img-top" alt="example landing page" id="img-main">
+            <div class="card-body">
+              <p class="card-text">This example show us a Landing Page for purchase</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+    
+  </main>
 
-    <footer>
+  <footer>
 
-    </footer>
+  </footer>
 
-    <script src="scripts/script.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
